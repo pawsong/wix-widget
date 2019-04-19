@@ -7,7 +7,7 @@ setInterval(function () {
     i = -2
   }
 
-  var height = 1000 + 100 * i
+  var height = 300 + 100 * i
   console.log('height: ' + height)
 
   Wix.setHeight(height)
